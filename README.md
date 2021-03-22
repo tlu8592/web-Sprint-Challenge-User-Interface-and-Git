@@ -40,8 +40,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-    "display: block" is where elements are displayed vertically, 
-    "display: inline" has elements that are displayed horizontally.
+    "display: block" is the default value for block elements, such as <div>, <h1>, and <p>, taking up maximum horizontal space "display: inline" is the default value for inline elements such as <span>, <em>, and <b>.
 
 3. What are the 4 areas of the box model?
 
