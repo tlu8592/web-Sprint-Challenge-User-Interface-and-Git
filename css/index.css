@@ -66,12 +66,38 @@ p {
     line-height: 1.4;
 }
 
+/* navigation */
+header  {
+    /* border: 2px solid goldenrod; */
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+}
+
+header nav {
+    /* border: 2px solid blue; */
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    /* align-content: flex-end; */
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Home Page */
 .container {
+    /* border: 2px solid aqua; */
     width: 800px;
     margin: 0 auto;
 }
 
 .top-content {
+    /* border: 2px solid maroon; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -79,7 +105,13 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content img {
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
 .top-content .text-container {
+    /* border: 2px solid blueviolet; */
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -124,6 +156,50 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+
+/* container about-page */
+main {
+    /* border: 2px solid darkblue; */
+    border-bottom: 1px dashed black;
+    width: 800px;
+    padding: 22px;
+}
+
+.flex-container{
+    /* border: 2px solid darkviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.strategy {
+    /* border: 2px solid slategrey; */
+    border-bottom: 1px dashed black;
+    margin-top: 25px;
+    width: 47%;
+}
+
+.strategy h4 {
+    margin-top: 10px;
+}
+
+button {
+    background-color: white;
+    padding: 8px 22px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nonflex {
+    /* border: 2px solid deeppink; */
+    padding: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer {
